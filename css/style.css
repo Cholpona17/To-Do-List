@@ -1,0 +1,54 @@
+body {
+    background: url('../img/936378.jpg') center / cover no-repeat;
+}
+
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: purple;
+    animation: anim 5s linear infinite;
+}
+
+@keyframes anim {
+    from {
+        filter: hue-rotate(0deg);
+    }
+
+    to {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.styles {
+    width: 60%;
+    height: 90vh;
+    text-align: center;
+    border: 1px, solid rgba(0, 0, 0, 0.379);
+    margin: 50px 0;
+    box-shadow: 0px 8px 32px 0px rgba(0, 0, 255, 0.37);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    border-radius: 32px;
+
+}
+
+
+#inp {
+    width: 50%;
+    font-size: 30px
+}
+
+
+#btnAdd {
+    width: 15%;
+}
+
+.task {
+    background: white;
+    margin: 20px 0;
+}
